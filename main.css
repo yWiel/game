@@ -1,0 +1,26 @@
+#mainCanvas
+{
+    width: 800px;
+    height: 600px;
+    border: solid 1px black;
+}
+#testx
+{
+    position: fixed;
+    top:10px;
+    left: 630px;
+}
+#restart
+{
+    position: fixed;
+    top:35px;
+    left: 750px;
+}
+#brief
+{
+    position: fixed;
+    top: 590px;
+    left: 625px;
+    color: #353535;
+    border: unset ;
+}
