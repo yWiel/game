@@ -1,24 +1,39 @@
+#main {
+    /* position: relative; */
+    /* left: 250px; */
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 805px;
+}
 #mainCanvas
 {
     width: 800px;
     height: 600px;
     border: solid 1px black;
+    background-image: url("img/back.jpg");
+    background-size: 800px auto;
+    background-repeat:no-repeat;
+    
 }
 #testx
 {
-    position: fixed;
+    position: absolute;
     top:10px;
-    left: 630px;
+    right: 10px;
+    left: auto;
+
 }
-#restart
+#btn_restart
 {
-    position: fixed;
-    top:35px;
-    left: 750px;
+    position: absolute;
+    top:42px;
+    right: 10px;
+    left: auto;
 }
 #brief
 {
-    position: fixed;
+    position: absolute;
     top: 590px;
     left: 625px;
     color: #353535;
